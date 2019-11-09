@@ -28,6 +28,7 @@ body {
       "languages languages" 
       "projects projects"
       "podcast podcast"
+      "commerce commerce"
       "hotel hotel"
       "forecast forecast"
       "autotype autotype"
@@ -58,6 +59,7 @@ body {
       "languages languages ."   
       "projects projects ."
       "podcast podcast podcast"
+      "commerce commerce commerce"
       "hotel hotel hotel"
       "forecast forecast forecast"
       "autotype autotype autotype"
@@ -82,6 +84,7 @@ body {
       "languages languages"
       "projects projects"
       "podcast podcast"
+      "commerce commerce"
       "hotel hotel"
       "forecast forecast"
       "autotype autotype"
@@ -162,7 +165,7 @@ body {
   }
 
  
-  #podcast,#hotel,#autotype,#forecast{
+  #podcast,#commerce,#hotel,#autotype,#forecast{
       padding-left: 15px !important;
   }
  
@@ -245,6 +248,12 @@ header p {
   margin-bottom: 25px;
 
 }
+#commerce {
+  grid-area: podcast;
+  padding-left: 15px;
+  margin-bottom: 25px;
+
+}
 #hotel {
   grid-area: hotel; 
   padding-left: 15px;
@@ -269,7 +278,7 @@ header p {
   margin-bottom: 25px;
 
 }
-#hotel > p , #podcast > p,#forecast > p,#autotype > p,#amazon > p{
+#hotel > p , #podcast > p,#commerce > p,#forecast > p,#autotype > p,#amazon > p{
   font-size: 18px;
 }
 
